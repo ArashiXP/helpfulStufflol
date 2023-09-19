@@ -11,14 +11,14 @@ And other1 has the actual function for add5, while other2 has the one for multip
 
 When compiling use:
 
-gcc -o modTest mainTest.c other1.c other2.c
+**gcc -o modTest mainTest.c other1.c other2.c**
 
 You must compile all 3, because that's just how it is sadly.
 *modTest is just a name of executable, it can be renamed by just changing it there*
 
 When you finish that call
 
-./modTest 10
+**./modTest 10**
 
 where the 10 can be any number
 
